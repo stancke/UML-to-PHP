@@ -6,7 +6,7 @@
     </input>
     <imports href="common.emtl#/0"/>
     <ownedModuleElement xsi:type="mtl:Template" name="generateUCP" visibility="Public">
-      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;>&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;pt-br&quot;>&#xA;&lt;head>&#xA;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; />&#xA;&#xA;&lt;!-- CSS -->&#xA;&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot; />&#xA;&lt;link type=&quot;text/css&quot; href=&quot;css/redmond/jquery-ui-1.8.16.custom.css&quot; rel=&quot;stylesheet&quot; />&#xA;&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;css/ui.css&quot; />&#xA;&#xA;&lt;!-- JavaScript -->&#xA;&#xA;&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.js&quot;>&lt;/script>&#xA;&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery-ui-1.8.16.custom.min.js&quot;>&lt;/script>&#xA;&lt;script type=&quot;text/javascript&quot; src=&quot;js/classy.js&quot;>&lt;/script>&#xA;&#xA;&lt;title>Métrica de UCP do projeto&lt;/title>&#xA;&lt;/head>&#xA;&#xA;&lt;body>&#xA;&#xA;    &lt;!--Copyright 2011, Wilian Stancke&#xA;Este programa é um software livre; você pode redistribui-lo e/ou&#xA;modifica-lo dentro dos termos da Licença Pública Geral GNU como&#xA;publicada pela Fundação do Software Livre (FSF); na versão 2 da&#xA;Licença.-->&#xA;&lt;div id=&quot;moldura&quot;>&#xA;&#xA;&lt;h1>Métrica de UCP do projeto&lt;/h1>&#xA;&lt;div id=&quot;conteudo&quot;>&#xA;&#xA;&lt;script type=&quot;text/javascript&quot; src=&quot;js/UCP.js&quot;>&lt;/script>&#xA;&lt;script type=&quot;text/javascript&quot;>&#xA;new UCP();&#xA;&lt;/script>&#xA;&lt;form action=&quot;/intranet/curriculum/index/salva&quot;>&#xA;&#xA;&lt;div id=&quot;tabs&quot;>&#xA;&lt;ul>&#xA;&lt;li>&lt;a href=&quot;#tabs-1&quot;>&lt;strong>Atores&lt;/strong>&lt;/a>&lt;/li>&#xA;&lt;li>&lt;a href=&quot;#tabs-2&quot;>&lt;strong>Casos de Uso&lt;/strong>&lt;/a>&lt;/li>&#xA;&lt;li>&lt;a href=&quot;#tabs-3&quot;>&lt;strong>Fatores Técnicos&lt;/strong>&lt;/a>&lt;/li>&#xA;&lt;li>&lt;a href=&quot;#tabs-4&quot;>&lt;strong>Fatores Ambientais&lt;/strong>&lt;/a>&lt;/li>&#xA;&lt;li>&lt;a id=&quot;resultado&quot; href=&quot;#tabs-5&quot;>&lt;strong>Resultados&lt;/strong>&lt;/a>&lt;/li>&#xA;&lt;a style=&quot;float: right;&quot;href=&quot;javascript:void(0)&quot; id=&quot;sobre&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;a style=&quot;float: right;&quot;href=&quot;javascript:void(0)&quot; id=&quot;config&quot;>&lt;img src=&quot;img/icons/cog.png&quot; />&lt;/a>&#xA;&lt;/ul>&#xA;&lt;div id=&quot;tabs-1&quot;>&#xA;&lt;div id=&quot;dialog_configuracao&quot; title=&quot;Configurações&quot;>&#xA;&lt;table>&#xA;&lt;tr>&#xA;&lt;td>&lt;label>&lt;strong>Horas/homem por ponto de UCP:&lt;/strong>&lt;/label>&lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; size=2 id=&quot;hora-por-ucp&quot; value=20 />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;label>&lt;strong>Quantidade de recursos:&lt;/strong>&lt;/label> &lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; size=2 id=&quot;qtd-recursos&quot; value=1 />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;label>&lt;strong>Horas de trabalho por recurso:&lt;/strong>&lt;/label> &lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; size=2 id=&quot;horas-recursos&quot; value=8 />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;label>&lt;strong>Preço por UCP (R$):&lt;/strong>&lt;/label> &lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; size=4 id=&quot;preco_por_ponto&quot; value=25 />&lt;/td>&#xA;&lt;/tr>&#xA;&#xA;&lt;/table>&#xA;&lt;/div>&#xA;&lt;div id=&quot;dialog_sobre&quot; title=&quot;Sobre&quot;>&#xA;&lt;p align=&quot;center&quot;>Calculadora de Use Case Points&lt;/p>&#xA;&lt;br/>&#xA;&lt;p align=&quot;center&quot;>&lt;strong>&lt;a href=&quot;http://www.stancke.com.br&quot;>www.stancke.com.br&lt;/a>&lt;/strong>&lt;/p>&#xA;&#xA;&lt;/div>&#xA;&lt;fieldset class=&quot;ator ui-widget-content ui-corner-all ui-state-highlight&quot;>&#xA;&#xA;&#xA;&lt;table width=&quot;100%&quot;>&#xA;"/>
+      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;>&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; lang=&quot;pt-br&quot;>&#xA;&lt;head>&#xA;&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; />&#xA;&#xA;&lt;!-- CSS -->&#xA;&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;css/style.css&quot; />&#xA;&lt;link type=&quot;text/css&quot; href=&quot;css/redmond/jquery-ui-1.8.16.custom.css&quot; rel=&quot;stylesheet&quot; />&#xA;&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;css/ui.css&quot; />&#xA;&#xA;&lt;!-- JavaScript -->&#xA;&#xA;&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.js&quot;>&lt;/script>&#xA;&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery-ui-1.8.16.custom.min.js&quot;>&lt;/script>&#xA;&lt;script type=&quot;text/javascript&quot; src=&quot;js/classy.js&quot;>&lt;/script>&#xA;&#xA;&lt;title>Métrica de UCP do projeto&lt;/title>&#xA;&lt;/head>&#xA;&#xA;&lt;body>&#xA;&#xA;    &lt;!--Copyright 2011, Wilian Stancke&#xA;Este programa é um software livre; você pode redistribui-lo e/ou&#xA;modifica-lo dentro dos termos da Licença Pública Geral GNU como&#xA;publicada pela Fundação do Software Livre (FSF); na versão 2 da&#xA;Licença.-->&#xA;&lt;div id=&quot;moldura&quot;>&#xA;&#xA;&lt;h1>Métrica de UCP do projeto&lt;/h1>&#xA;&lt;div id=&quot;conteudo&quot;>&#xA;&#xA;&lt;script type=&quot;text/javascript&quot; src=&quot;js/UCP.js&quot;>&lt;/script>&#xA;&lt;script type=&quot;text/javascript&quot;>&#xA;new UCP();&#xA;&lt;/script>&#xA;&lt;form action=&quot;/intranet/curriculum/index/salva&quot;>&#xA;&#xA;&lt;div id=&quot;tabs&quot;>&#xA;&lt;ul>&#xA;&lt;li>&lt;a href=&quot;#tabs-1&quot;>&lt;strong>Diagrama&lt;/strong>&lt;/a>&lt;/li>&#xA;&lt;li>&lt;a href=&quot;#tabs-2&quot;>&lt;strong>Atores&lt;/strong>&lt;/a>&lt;/li>&#xA;&lt;li>&lt;a href=&quot;#tabs-3&quot;>&lt;strong>Casos de Uso&lt;/strong>&lt;/a>&lt;/li>&#xA;&lt;li>&lt;a href=&quot;#tabs-4&quot;>&lt;strong>Fatores Técnicos&lt;/strong>&lt;/a>&lt;/li>&#xA;&lt;li>&lt;a href=&quot;#tabs-5&quot;>&lt;strong>Fatores Ambientais&lt;/strong>&lt;/a>&lt;/li>&#xA;&lt;li>&lt;a id=&quot;resultado&quot; href=&quot;#tabs-6&quot;>&lt;strong>Resultados&lt;/strong>&lt;/a>&lt;/li>&#xA;&lt;a style=&quot;float: right;&quot;href=&quot;javascript:void(0)&quot; id=&quot;sobre&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;a style=&quot;float: right;&quot;href=&quot;javascript:void(0)&quot; id=&quot;config&quot;>&lt;img src=&quot;img/icons/cog.png&quot; />&lt;/a>&#xA;&lt;/ul>&#xA;&lt;div id=&quot;tabs-1&quot;>&#xA;&lt;img src=&quot;img/diagramas/usecase.png&quot;/>&#xA;&lt;/div>&#xA;&lt;div id=&quot;tabs-2&quot;>&#xA;&lt;div id=&quot;dialog_configuracao&quot; title=&quot;Configurações&quot;>&#xA;&lt;table>&#xA;&lt;tr>&#xA;&lt;td>&lt;label>&lt;strong>Horas/homem por ponto de UCP:&lt;/strong>&lt;/label>&lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; size=2 id=&quot;hora-por-ucp&quot; value=20 />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;label>&lt;strong>Quantidade de recursos:&lt;/strong>&lt;/label> &lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; size=2 id=&quot;qtd-recursos&quot; value=1 />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;label>&lt;strong>Horas de trabalho por recurso:&lt;/strong>&lt;/label> &lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; size=2 id=&quot;horas-recursos&quot; value=8 />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;label>&lt;strong>Preço por UCP (R$):&lt;/strong>&lt;/label> &lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; size=4 id=&quot;preco_por_ponto&quot; value=25 />&lt;/td>&#xA;&lt;/tr>&#xA;&#xA;&lt;/table>&#xA;&lt;/div>&#xA;&lt;div id=&quot;dialog_sobre&quot; title=&quot;Sobre&quot;>&#xA;&lt;p align=&quot;center&quot;>Calculadora de Use Case Points&lt;/p>&#xA;&lt;br/>&#xA;&lt;p align=&quot;center&quot;>&lt;strong>&lt;a href=&quot;http://www.stancke.com.br&quot;>www.stancke.com.br&lt;/a>&lt;/strong>&lt;/p>&#xA;&#xA;&lt;/div>&#xA;&lt;fieldset class=&quot;ator ui-widget-content ui-corner-all ui-state-highlight&quot;>&#xA;&#xA;&#xA;&lt;table width=&quot;100%&quot;>&#xA;"/>
       <body xsi:type="mtl:ForBlock">
         <body xsi:type="mtl:IfBlock">
           <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&lt;tr>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot;>Ator&lt;/th>&#xA;&lt;td>&#xA;&lt;input type=&quot;text&quot; name=&quot;ator_nome&quot; value=&quot;"/>
@@ -104,7 +104,7 @@
           </argument>
         </iterSet>
       </body>
-      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;div id=&quot;dialog_ator&quot; class=&quot;dialogs&quot; title=&quot;Atores&quot;>&#xA;&lt;table cellspacing=0>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tl&quot;>Ator&lt;/td>&#xA;&lt;td class=&quot;ui-widget-header&quot;>Peso&lt;/td>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tr&quot;>Descrição&lt;/td>&#xA;&lt;/td>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Simples&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o ator representa um sistema externo que é acessado através de API(Application Programming Interface)&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Médio&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>2&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o ator representa um sistema externo, acessado através de um protocolo de comunicação(por exemplo: TCP/IP)&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Complexo&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>3&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o ator interage com o sistema através de uma inteface gráfica(GUI)&lt;/td>&#xA;&lt;/tr>&#xA;&#xA;&lt;/table>&#xA;&lt;/p>&#xA;&lt;/div>&#xA;&lt;/div>&#xA;&#xA;&lt;div id=&quot;tabs-2&quot;>&#xA;&lt;fieldset class=&quot;caso-de-uso ui-widget-content ui-corner-all ui-state-highlight&quot;>&#xA;&lt;table width=&quot;100%&quot;>&#xA;"/>
+      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;div id=&quot;dialog_ator&quot; class=&quot;dialogs&quot; title=&quot;Atores&quot;>&#xA;&lt;table cellspacing=0>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tl&quot;>Ator&lt;/td>&#xA;&lt;td class=&quot;ui-widget-header&quot;>Peso&lt;/td>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tr&quot;>Descrição&lt;/td>&#xA;&lt;/td>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Simples&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o ator representa um sistema externo que é acessado através de API(Application Programming Interface)&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Médio&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>2&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o ator representa um sistema externo, acessado através de um protocolo de comunicação(por exemplo: TCP/IP)&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Complexo&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>3&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o ator interage com o sistema através de uma inteface gráfica(GUI)&lt;/td>&#xA;&lt;/tr>&#xA;&#xA;&lt;/table>&#xA;&lt;/p>&#xA;&lt;/div>&#xA;&lt;/div>&#xA;&#xA;&lt;div id=&quot;tabs-3&quot;>&#xA;&lt;fieldset class=&quot;caso-de-uso ui-widget-content ui-corner-all ui-state-highlight&quot;>&#xA;&lt;table width=&quot;100%&quot;>&#xA;"/>
       <body xsi:type="mtl:ForBlock">
         <body xsi:type="mtl:IfBlock">
           <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&lt;tr>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot;>Caso de Uso&lt;/th>&#xA;&lt;td>&#xA;&lt;input type=&quot;text&quot; name=&quot;ator_nome&quot; value=&quot;"/>
@@ -202,7 +202,7 @@
           </argument>
         </iterSet>
       </body>
-      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;div id=&quot;dialog_caso-de-uso&quot; class=&quot;dialogs&quot; title=&quot;Casos de Uso&quot;>&#xA;&lt;table cellspacing=0>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tl&quot;>Caso de Uso&lt;/td>&#xA;&lt;td class=&quot;ui-widget-header&quot;>Peso&lt;/td>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tr&quot;>Descrição&lt;/td>&#xA;&lt;/td>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Simples&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>5&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o caso de uso possui 3 ou menos transações, incluindo cenários alternativos, e sua realização deve acontecer menos de 5 objetos(classes de análise)&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Médio&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>10&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o caso de uso possui de 4 a 7 transações, incluindo cenários alternativos, e sua realização deve acontecer com 5 a 10 objetos(classes de análise)&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Complexo&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>15&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o caso de uso possui mais de 7 transações, incluindo cenários alternativos, e sua realização deve acontecer com mais de 10 objetos(classes de análise)&lt;/td>&#xA;&lt;/tr>&#xA;&#xA;&lt;/table>&#xA;&lt;/p>&#xA;&lt;/div>&#xA;&lt;/div>&#xA;&#xA;&lt;div id=&quot;tabs-3&quot;>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;70%&quot;>Fator Técnico&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Classificação&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Peso&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Classificação Ponderada&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Ajuda&lt;/th>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Sistema distribuído&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>2&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; id=&quot;help-sist-dist&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Performance&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Eficiência para o usuário final&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Processamento interno complexo&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Código deve ser reusável&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Fácil para instalar&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>0.5&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Fácil para usar&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>0.5&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Portável&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>2&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Fácil para mudar&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Concorrente&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Seguro&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Fornece acesso direto para sistemas/componentes externos&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>É requerido treinamento do usuário para usar o software&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;br/>&#xA;&#xA;&#xA;&lt;/div>&#xA;&#xA;&#xA;&lt;div id=&quot;tabs-4&quot;>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;70%&quot;>Fator Ambiental&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Classificação&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Peso&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Classificação Ponderada&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Ajuda&lt;/th>&#xA;&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Familiaridade com o processo de desenvolvimento adotado&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1.5&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Colaboradores de meio período&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>-1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Capacidade de análise&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>0.5&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Experiência em desenvolvimento de aplicações deste gênero&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>0.5&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Experiência em Orientação a Objetos&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Motivação&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Dificuldade na linguagem de programação&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>-1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Requisitos estáveis&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>2&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&#xA;&lt;/table>&#xA;&lt;/div>&#xA;&lt;div id=&quot;tabs-5&quot;>&#xA;&lt;fieldset class=&quot;ui-widget-content ui-corner-all&quot;>&#xA;&lt;legend class=&quot;ui-widget-header ui-corner-all ui-state-default&quot;>&lt;strong>Pontos por Caso de Uso&lt;/strong>&lt;/legend>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;tr>&#xA;&lt;td width=&quot;250&quot; >&lt;strong>UCP SEM AJUSTE:&lt;/strong>&lt;/td>&#xA;&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;ucp_sem_ajuste&quot; readonly size=&quot;12&quot; maxlength=&quot;12&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>FATORES TÉCNICOS:&lt;/strong>&lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;result_fator_tecnico&quot; readonly size=&quot;12&quot; maxlength=&quot;12&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>FATORES AMBIENTAIS:&lt;/strong>&lt;/td>&#xA;&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;result_fator_ambiental&quot; readonly size=&quot;12&quot; maxlength=&quot;12&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>UCP AJUSTADO:&lt;/strong>&lt;/td>&#xA;&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;ucp_ajustado&quot; readonly size=&quot;12&quot; maxlength=&quot;12&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;br/>&#xA;&#xA;&lt;fieldset class=&quot;ui-widget-content ui-corner-all&quot;>&#xA;&lt;legend class=&quot;ui-widget-header ui-corner-all ui-state-default&quot;>&lt;strong>Estimativa de Esforço&lt;/strong>&lt;/legend>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>ESFORÇO TOTAL EM HOMEM/HORA DO PROJETO:&lt;/strong>&lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;homem_hora&quot; size=&quot;12&quot; title=&quot;UCP &amp;times; Horas p/ UCP&quot; readonly maxlength=&quot;100&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;br/>&#xA;&lt;fieldset class=&quot;ui-widget-content ui-corner-all&quot;>&#xA;&lt;legend class=&quot;ui-widget-header ui-corner-all ui-state-default&quot;>&lt;strong>Estimativa de Prazo&lt;/strong>&lt;/legend>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>PRAZO DE ENTREGA DO PROJETO (DIAS):&lt;/strong>&lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;prazo_entrega&quot; size=&quot;12&quot; title=&quot;(Esforço &amp;divide; Qtd de Recursos) &amp;divide; Horas p/ Recurso&quot; readonly maxlength=&quot;100&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;br/>&#xA;&lt;fieldset class=&quot;ui-widget-content ui-corner-all&quot;>&#xA;&lt;legend class=&quot;ui-widget-header ui-corner-all ui-state-default&quot;>&lt;strong>Preço do Projeto&lt;/strong>&lt;/legend>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>PREÇO (R$):&lt;/strong>&lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;preco_projeto&quot; size=&quot;12&quot; title=&quot;UCP &amp;times; Preço por Ponto&quot; readonly maxlength=&quot;100&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;/div>&#xA;&lt;/div>&#xA;&lt;/form> &lt;/div>&#xA;&lt;div id=&quot;center&quot;>&#xA;&lt;a href=&quot;http://www.stancke.com.br&quot;>Sob licensa GPL. Copyright 2011, Wilian Stancke&lt;/a>&#xA;&lt;/div>&#xA;&lt;/div>&#xA;&lt;div id=&quot;dialog_sistema_distribuido&quot; class=&quot;dialogs_fatores&quot; title=&quot;Sistema Distribuído&quot;>&#xA;&lt;table cellspacing=0>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tl&quot;>Peso&lt;/td>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tr&quot;>Descrição&lt;/td>&#xA;&lt;/td>&#xA;&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>0&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; >A aplicação não auxilia na transferência de dados ou processamento entre as CPUs da instalação&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>A aplicação prepara dados para o usuário final processar em outra CPU da instalação. Por exemplo, planilhas eletrônicas ou gerenciadores de banco de dados de PC.&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>2&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Os dados são preparados para transferência, transferidos e processados em uma outra CPU da instalação (mas NÃO para processamento pelo usuário final como visto no item 1).&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>3&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Processamento distribuído e transferência de dados on­line apenas em uma direção.&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>4&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Processamento distribuído e transferência de dados on­line em ambas direções.&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>5&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; >As funções de processamento são executadas dinamicamente na CPU mais apropriada.&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;/p>&#xA;&lt;/div>&#xA;&lt;/body>&#xA;&#xA;&lt;/html>"/>
+      <body xsi:type="ocl.ecore:StringLiteralExp" stringSymbol="&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;div id=&quot;dialog_caso-de-uso&quot; class=&quot;dialogs&quot; title=&quot;Casos de Uso&quot;>&#xA;&lt;table cellspacing=0>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tl&quot;>Caso de Uso&lt;/td>&#xA;&lt;td class=&quot;ui-widget-header&quot;>Peso&lt;/td>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tr&quot;>Descrição&lt;/td>&#xA;&lt;/td>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Simples&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>5&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o caso de uso possui 3 ou menos transações, incluindo cenários alternativos, e sua realização deve acontecer menos de 5 objetos(classes de análise)&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Médio&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>10&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o caso de uso possui de 4 a 7 transações, incluindo cenários alternativos, e sua realização deve acontecer com 5 a 10 objetos(classes de análise)&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Complexo&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>15&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Quando o caso de uso possui mais de 7 transações, incluindo cenários alternativos, e sua realização deve acontecer com mais de 10 objetos(classes de análise)&lt;/td>&#xA;&lt;/tr>&#xA;&#xA;&lt;/table>&#xA;&lt;/p>&#xA;&lt;/div>&#xA;&lt;/div>&#xA;&#xA;&lt;div id=&quot;tabs-4&quot;>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;70%&quot;>Fator Técnico&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Classificação&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Peso&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Classificação Ponderada&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Ajuda&lt;/th>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Sistema distribuído&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>2&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; id=&quot;help-sist-dist&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Performance&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Eficiência para o usuário final&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Processamento interno complexo&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Código deve ser reusável&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Fácil para instalar&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>0.5&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Fácil para usar&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>0.5&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Portável&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>2&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Fácil para mudar&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Concorrente&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Seguro&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Fornece acesso direto para sistemas/componentes externos&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>É requerido treinamento do usuário para usar o software&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-tecnicos&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-tecnicos&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;br/>&#xA;&#xA;&#xA;&lt;/div>&#xA;&#xA;&#xA;&lt;div id=&quot;tabs-5&quot;>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;70%&quot;>Fator Ambiental&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Classificação&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Peso&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Classificação Ponderada&lt;/th>&#xA;&lt;th class=&quot;ui-widget-header ui-corner-all&quot; width=&quot;10%&quot;>Ajuda&lt;/th>&#xA;&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Familiaridade com o processo de desenvolvimento adotado&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1.5&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Colaboradores de meio período&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>-1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Capacidade de análise&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>0.5&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Experiência em desenvolvimento de aplicações deste gênero&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>0.5&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Experiência em Orientação a Objetos&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Motivação&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Dificuldade na linguagem de programação&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>-1&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&#xA;&lt;strong>Requisitos estáveis&lt;/strong>&#xA;&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;select class=&quot;select-fatores-ambientais&quot;>&#xA;&lt;option>0&lt;/option>&#xA;&lt;option>1&lt;/option>&#xA;&lt;option>2&lt;/option>&#xA;&lt;option>3&lt;/option>&#xA;&lt;option>4&lt;/option>&#xA;&lt;option>5&lt;/option>&#xA;&lt;/select>&#xA;&lt;/td>&#xA;&lt;td align=&quot;center&quot;>2&lt;/td>&#xA;&lt;td align=&quot;center&quot; class=&quot;classificacao-ponderada-fat-ambiental&quot;>0&lt;/td>&#xA;&lt;td align=&quot;center&quot;>&#xA;&lt;a href=&quot;javascript:void(0)&quot; class=&quot;help-fat-tecnicos&quot;>&lt;img src=&quot;img/icons/help.png&quot; />&lt;/a>&#xA;&lt;/td>&#xA;&lt;/tr>&#xA;&#xA;&lt;/table>&#xA;&lt;/div>&#xA;&lt;div id=&quot;tabs-6&quot;>&#xA;&lt;fieldset class=&quot;ui-widget-content ui-corner-all&quot;>&#xA;&lt;legend class=&quot;ui-widget-header ui-corner-all ui-state-default&quot;>&lt;strong>Pontos por Caso de Uso&lt;/strong>&lt;/legend>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;tr>&#xA;&lt;td width=&quot;250&quot; >&lt;strong>UCP SEM AJUSTE:&lt;/strong>&lt;/td>&#xA;&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;ucp_sem_ajuste&quot; readonly size=&quot;12&quot; maxlength=&quot;12&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>FATORES TÉCNICOS:&lt;/strong>&lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;result_fator_tecnico&quot; readonly size=&quot;12&quot; maxlength=&quot;12&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>FATORES AMBIENTAIS:&lt;/strong>&lt;/td>&#xA;&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;result_fator_ambiental&quot; readonly size=&quot;12&quot; maxlength=&quot;12&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>UCP AJUSTADO:&lt;/strong>&lt;/td>&#xA;&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;ucp_ajustado&quot; readonly size=&quot;12&quot; maxlength=&quot;12&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;br/>&#xA;&#xA;&lt;fieldset class=&quot;ui-widget-content ui-corner-all&quot;>&#xA;&lt;legend class=&quot;ui-widget-header ui-corner-all ui-state-default&quot;>&lt;strong>Estimativa de Esforço&lt;/strong>&lt;/legend>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>ESFORÇO TOTAL EM HOMEM/HORA DO PROJETO:&lt;/strong>&lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;homem_hora&quot; size=&quot;12&quot; title=&quot;UCP &amp;times; Horas p/ UCP&quot; readonly maxlength=&quot;100&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;br/>&#xA;&lt;fieldset class=&quot;ui-widget-content ui-corner-all&quot;>&#xA;&lt;legend class=&quot;ui-widget-header ui-corner-all ui-state-default&quot;>&lt;strong>Estimativa de Prazo&lt;/strong>&lt;/legend>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>PRAZO DE ENTREGA DO PROJETO (DIAS):&lt;/strong>&lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;prazo_entrega&quot; size=&quot;12&quot; title=&quot;(Esforço &amp;divide; Qtd de Recursos) &amp;divide; Horas p/ Recurso&quot; readonly maxlength=&quot;100&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;br/>&#xA;&lt;fieldset class=&quot;ui-widget-content ui-corner-all&quot;>&#xA;&lt;legend class=&quot;ui-widget-header ui-corner-all ui-state-default&quot;>&lt;strong>Preço do Projeto&lt;/strong>&lt;/legend>&#xA;&lt;table cellpadding=&quot;4&quot; cellspacing=&quot;2&quot; width=&quot;100%&quot;>&#xA;&lt;tr>&#xA;&lt;td>&lt;strong>PREÇO (R$):&lt;/strong>&lt;/td>&#xA;&lt;td>&lt;input type=&quot;text&quot; id=&quot;preco_projeto&quot; size=&quot;12&quot; title=&quot;UCP &amp;times; Preço por Ponto&quot; readonly maxlength=&quot;100&quot; />&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;/fieldset>&#xA;&lt;/div>&#xA;&lt;/div>&#xA;&lt;/form> &lt;/div>&#xA;&lt;div id=&quot;center&quot;>&#xA;&lt;a href=&quot;http://www.stancke.com.br&quot;>Sob licensa GPL. Copyright 2011, Wilian Stancke&lt;/a>&#xA;&lt;/div>&#xA;&lt;/div>&#xA;&lt;div id=&quot;dialog_sistema_distribuido&quot; class=&quot;dialogs_fatores&quot; title=&quot;Sistema Distribuído&quot;>&#xA;&lt;table cellspacing=0>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tl&quot;>Peso&lt;/td>&#xA;&lt;td class=&quot;ui-widget-header ui-corner-tr&quot;>Descrição&lt;/td>&#xA;&lt;/td>&#xA;&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>0&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; >A aplicação não auxilia na transferência de dados ou processamento entre as CPUs da instalação&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>1&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>A aplicação prepara dados para o usuário final processar em outra CPU da instalação. Por exemplo, planilhas eletrônicas ou gerenciadores de banco de dados de PC.&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>2&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Os dados são preparados para transferência, transferidos e processados em uma outra CPU da instalação (mas NÃO para processamento pelo usuário final como visto no item 1).&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>3&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Processamento distribuído e transferência de dados on­line apenas em uma direção.&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>4&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot;>Processamento distribuído e transferência de dados on­line em ambas direções.&lt;/td>&#xA;&lt;/tr>&#xA;&lt;tr>&#xA;&lt;td class=&quot;ui-widget-content&quot; align=&quot;center&quot;>5&lt;/td>&#xA;&lt;td class=&quot;ui-widget-content&quot; >As funções de processamento são executadas dinamicamente na CPU mais apropriada.&lt;/td>&#xA;&lt;/tr>&#xA;&lt;/table>&#xA;&lt;/p>&#xA;&lt;/div>&#xA;&lt;/body>&#xA;&#xA;&lt;/html>"/>
       <parameter name="u">
         <eType xsi:type="ecore:EClass" href="http://www.eclipse.org/uml2/3.0.0/UML#//Model"/>
       </parameter>
@@ -878,383 +878,383 @@
   <ecore:EAnnotation source="positions">
     <eAnnotations source="positions.0" references="/0/generateUCP">
       <details key="start" value="420"/>
-      <details key="end" value="21711"/>
+      <details key="end" value="21832"/>
       <details key="line" value="12"/>
     </eAnnotations>
     <eAnnotations source="positions.1" references="/0/generateUCP/@body.0">
       <details key="start" value="461"/>
-      <details key="end" value="3225"/>
+      <details key="end" value="3346"/>
       <details key="line" value="13"/>
     </eAnnotations>
     <eAnnotations source="positions.2" references="/0/generateUCP/@body.1">
-      <details key="start" value="3225"/>
-      <details key="end" value="3913"/>
-      <details key="line" value="91"/>
+      <details key="start" value="3346"/>
+      <details key="end" value="4034"/>
+      <details key="line" value="95"/>
     </eAnnotations>
     <eAnnotations source="positions.3" references="/0/generateUCP/@body.1/@body.0">
-      <details key="start" value="3269"/>
-      <details key="end" value="3906"/>
-      <details key="line" value="92"/>
+      <details key="start" value="3390"/>
+      <details key="end" value="4027"/>
+      <details key="line" value="96"/>
     </eAnnotations>
     <eAnnotations source="positions.4" references="/0/generateUCP/@body.1/@body.0/@body.0">
-      <details key="start" value="3298"/>
-      <details key="end" value="3404"/>
-      <details key="line" value="93"/>
+      <details key="start" value="3419"/>
+      <details key="end" value="3525"/>
+      <details key="line" value="97"/>
     </eAnnotations>
     <eAnnotations source="positions.5" references="/0/generateUCP/@body.1/@body.0/@body.1">
-      <details key="start" value="3405"/>
-      <details key="end" value="3411"/>
+      <details key="start" value="3526"/>
+      <details key="end" value="3532"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.6" references="/0/generateUCP/@body.1/@body.0/@body.1/e">
-      <details key="start" value="3405"/>
-      <details key="end" value="3406"/>
+      <details key="start" value="3526"/>
+      <details key="end" value="3527"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.7" references="/0/generateUCP/@body.1/@body.0/@body.2">
-      <details key="start" value="3413"/>
-      <details key="end" value="3531"/>
-      <details key="line" value="96"/>
+      <details key="start" value="3534"/>
+      <details key="end" value="3652"/>
+      <details key="line" value="100"/>
     </eAnnotations>
     <eAnnotations source="positions.8" references="/0/generateUCP/@body.1/@body.0/@body.3">
-      <details key="start" value="3531"/>
-      <details key="end" value="3783"/>
-      <details key="line" value="104"/>
+      <details key="start" value="3652"/>
+      <details key="end" value="3904"/>
+      <details key="line" value="108"/>
     </eAnnotations>
     <eAnnotations source="positions.9" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.0">
-      <details key="start" value="3582"/>
-      <details key="end" value="3646"/>
-      <details key="line" value="105"/>
+      <details key="start" value="3703"/>
+      <details key="end" value="3767"/>
+      <details key="line" value="109"/>
     </eAnnotations>
     <eAnnotations source="positions.10" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.0/@body.0">
-      <details key="start" value="3608"/>
-      <details key="end" value="3641"/>
-      <details key="line" value="106"/>
+      <details key="start" value="3729"/>
+      <details key="end" value="3762"/>
+      <details key="line" value="110"/>
     </eAnnotations>
     <eAnnotations source="positions.11" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.0/@ifExpr">
-      <details key="start" value="3586"/>
-      <details key="end" value="3606"/>
+      <details key="start" value="3707"/>
+      <details key="end" value="3727"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.12" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.0/@ifExpr/@source">
-      <details key="start" value="3587"/>
-      <details key="end" value="3593"/>
+      <details key="start" value="3708"/>
+      <details key="end" value="3714"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.13" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.0/@ifExpr/@source/a">
-      <details key="start" value="3587"/>
-      <details key="end" value="3588"/>
+      <details key="start" value="3708"/>
+      <details key="end" value="3709"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.14" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.0/@ifExpr/@argument.0">
-      <details key="start" value="3596"/>
-      <details key="end" value="3605"/>
+      <details key="start" value="3717"/>
+      <details key="end" value="3726"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.15" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.1">
-      <details key="start" value="3647"/>
-      <details key="end" value="3708"/>
-      <details key="line" value="108"/>
+      <details key="start" value="3768"/>
+      <details key="end" value="3829"/>
+      <details key="line" value="112"/>
     </eAnnotations>
     <eAnnotations source="positions.16" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.1/@body.0">
-      <details key="start" value="3671"/>
-      <details key="end" value="3703"/>
-      <details key="line" value="109"/>
+      <details key="start" value="3792"/>
+      <details key="end" value="3824"/>
+      <details key="line" value="113"/>
     </eAnnotations>
     <eAnnotations source="positions.17" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.1/@ifExpr">
-      <details key="start" value="3651"/>
-      <details key="end" value="3669"/>
+      <details key="start" value="3772"/>
+      <details key="end" value="3790"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.18" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.1/@ifExpr/@source">
-      <details key="start" value="3652"/>
-      <details key="end" value="3658"/>
+      <details key="start" value="3773"/>
+      <details key="end" value="3779"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.19" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.1/@ifExpr/@source/a">
-      <details key="start" value="3652"/>
-      <details key="end" value="3653"/>
+      <details key="start" value="3773"/>
+      <details key="end" value="3774"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.20" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.1/@ifExpr/@argument.0">
-      <details key="start" value="3661"/>
-      <details key="end" value="3668"/>
+      <details key="start" value="3782"/>
+      <details key="end" value="3789"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.21" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.2">
-      <details key="start" value="3709"/>
-      <details key="end" value="3776"/>
-      <details key="line" value="111"/>
+      <details key="start" value="3830"/>
+      <details key="end" value="3897"/>
+      <details key="line" value="115"/>
     </eAnnotations>
     <eAnnotations source="positions.22" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.2/@body.0">
-      <details key="start" value="3736"/>
-      <details key="end" value="3771"/>
-      <details key="line" value="112"/>
+      <details key="start" value="3857"/>
+      <details key="end" value="3892"/>
+      <details key="line" value="116"/>
     </eAnnotations>
     <eAnnotations source="positions.23" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.2/@ifExpr">
-      <details key="start" value="3713"/>
-      <details key="end" value="3734"/>
+      <details key="start" value="3834"/>
+      <details key="end" value="3855"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.24" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.2/@ifExpr/@source">
-      <details key="start" value="3714"/>
-      <details key="end" value="3720"/>
+      <details key="start" value="3835"/>
+      <details key="end" value="3841"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.25" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.2/@ifExpr/@source/a">
-      <details key="start" value="3714"/>
-      <details key="end" value="3715"/>
+      <details key="start" value="3835"/>
+      <details key="end" value="3836"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.26" references="/0/generateUCP/@body.1/@body.0/@body.3/@body.2/@ifExpr/@argument.0">
-      <details key="start" value="3723"/>
-      <details key="end" value="3733"/>
+      <details key="start" value="3844"/>
+      <details key="end" value="3854"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.27" references="/0/generateUCP/@body.1/@body.0/@body.3/a">
-      <details key="start" value="3537"/>
-      <details key="end" value="3551"/>
-      <details key="line" value="104"/>
+      <details key="start" value="3658"/>
+      <details key="end" value="3672"/>
+      <details key="line" value="108"/>
     </eAnnotations>
     <eAnnotations source="positions.28" references="/0/generateUCP/@body.1/@body.0/@body.3/@iterSet">
-      <details key="start" value="3554"/>
-      <details key="end" value="3579"/>
+      <details key="start" value="3675"/>
+      <details key="end" value="3700"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.29" references="/0/generateUCP/@body.1/@body.0/@body.3/@iterSet/e">
-      <details key="start" value="3554"/>
-      <details key="end" value="3555"/>
+      <details key="start" value="3675"/>
+      <details key="end" value="3676"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.30" references="/0/generateUCP/@body.1/@body.0/@body.4">
-      <details key="start" value="3784"/>
-      <details key="end" value="3901"/>
-      <details key="line" value="115"/>
+      <details key="start" value="3905"/>
+      <details key="end" value="4022"/>
+      <details key="line" value="119"/>
     </eAnnotations>
     <eAnnotations source="positions.31" references="/0/generateUCP/@body.1/@body.0/@ifExpr">
-      <details key="start" value="3273"/>
-      <details key="end" value="3296"/>
+      <details key="start" value="3394"/>
+      <details key="end" value="3417"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.32" references="/0/generateUCP/@body.1/@body.0/@ifExpr/e">
-      <details key="start" value="3275"/>
-      <details key="end" value="3276"/>
+      <details key="start" value="3396"/>
+      <details key="end" value="3397"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.33" references="/0/generateUCP/@body.1/@body.0/@ifExpr/@argument.0">
-      <details key="start" value="3289"/>
-      <details key="end" value="3294"/>
+      <details key="start" value="3410"/>
+      <details key="end" value="3415"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.34" references="/0/generateUCP/@body.1/e">
-      <details key="start" value="3231"/>
-      <details key="end" value="3247"/>
-      <details key="line" value="91"/>
+      <details key="start" value="3352"/>
+      <details key="end" value="3368"/>
+      <details key="line" value="95"/>
     </eAnnotations>
     <eAnnotations source="positions.35" references="/0/generateUCP/@body.1/@iterSet">
-      <details key="start" value="3250"/>
-      <details key="end" value="3266"/>
+      <details key="start" value="3371"/>
+      <details key="end" value="3387"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.36" references="/0/generateUCP/@body.1/@iterSet/u">
-      <details key="start" value="3250"/>
-      <details key="end" value="3251"/>
+      <details key="start" value="3371"/>
+      <details key="end" value="3372"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.37" references="/0/generateUCP/@body.1/@iterSet/@argument.0">
-      <details key="start" value="3257"/>
-      <details key="end" value="3265"/>
+      <details key="start" value="3378"/>
+      <details key="end" value="3386"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.38" references="/0/generateUCP/@body.2">
-      <details key="start" value="3914"/>
-      <details key="end" value="5040"/>
-      <details key="line" value="123"/>
+      <details key="start" value="4035"/>
+      <details key="end" value="5161"/>
+      <details key="line" value="127"/>
     </eAnnotations>
     <eAnnotations source="positions.39" references="/0/generateUCP/@body.3">
-      <details key="start" value="5040"/>
-      <details key="end" value="5773"/>
-      <details key="line" value="156"/>
+      <details key="start" value="5161"/>
+      <details key="end" value="5894"/>
+      <details key="line" value="160"/>
     </eAnnotations>
     <eAnnotations source="positions.40" references="/0/generateUCP/@body.3/@body.0">
-      <details key="start" value="5084"/>
-      <details key="end" value="5766"/>
-      <details key="line" value="157"/>
+      <details key="start" value="5205"/>
+      <details key="end" value="5887"/>
+      <details key="line" value="161"/>
     </eAnnotations>
     <eAnnotations source="positions.41" references="/0/generateUCP/@body.3/@body.0/@body.0">
-      <details key="start" value="5115"/>
-      <details key="end" value="5228"/>
-      <details key="line" value="158"/>
+      <details key="start" value="5236"/>
+      <details key="end" value="5349"/>
+      <details key="line" value="162"/>
     </eAnnotations>
     <eAnnotations source="positions.42" references="/0/generateUCP/@body.3/@body.0/@body.1">
-      <details key="start" value="5229"/>
-      <details key="end" value="5235"/>
+      <details key="start" value="5350"/>
+      <details key="end" value="5356"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.43" references="/0/generateUCP/@body.3/@body.0/@body.1/e">
-      <details key="start" value="5229"/>
-      <details key="end" value="5230"/>
+      <details key="start" value="5350"/>
+      <details key="end" value="5351"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.44" references="/0/generateUCP/@body.3/@body.0/@body.2">
-      <details key="start" value="5237"/>
-      <details key="end" value="5361"/>
-      <details key="line" value="161"/>
+      <details key="start" value="5358"/>
+      <details key="end" value="5482"/>
+      <details key="line" value="165"/>
     </eAnnotations>
     <eAnnotations source="positions.45" references="/0/generateUCP/@body.3/@body.0/@body.3">
-      <details key="start" value="5361"/>
-      <details key="end" value="5613"/>
-      <details key="line" value="168"/>
+      <details key="start" value="5482"/>
+      <details key="end" value="5734"/>
+      <details key="line" value="172"/>
     </eAnnotations>
     <eAnnotations source="positions.46" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.0">
-      <details key="start" value="5412"/>
-      <details key="end" value="5476"/>
-      <details key="line" value="169"/>
+      <details key="start" value="5533"/>
+      <details key="end" value="5597"/>
+      <details key="line" value="173"/>
     </eAnnotations>
     <eAnnotations source="positions.47" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.0/@body.0">
-      <details key="start" value="5438"/>
-      <details key="end" value="5471"/>
-      <details key="line" value="170"/>
+      <details key="start" value="5559"/>
+      <details key="end" value="5592"/>
+      <details key="line" value="174"/>
     </eAnnotations>
     <eAnnotations source="positions.48" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.0/@ifExpr">
-      <details key="start" value="5416"/>
-      <details key="end" value="5436"/>
+      <details key="start" value="5537"/>
+      <details key="end" value="5557"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.49" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.0/@ifExpr/@source">
-      <details key="start" value="5417"/>
-      <details key="end" value="5423"/>
+      <details key="start" value="5538"/>
+      <details key="end" value="5544"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.50" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.0/@ifExpr/@source/a">
-      <details key="start" value="5417"/>
-      <details key="end" value="5418"/>
+      <details key="start" value="5538"/>
+      <details key="end" value="5539"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.51" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.0/@ifExpr/@argument.0">
-      <details key="start" value="5426"/>
-      <details key="end" value="5435"/>
+      <details key="start" value="5547"/>
+      <details key="end" value="5556"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.52" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.1">
-      <details key="start" value="5477"/>
-      <details key="end" value="5538"/>
-      <details key="line" value="172"/>
+      <details key="start" value="5598"/>
+      <details key="end" value="5659"/>
+      <details key="line" value="176"/>
     </eAnnotations>
     <eAnnotations source="positions.53" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.1/@body.0">
-      <details key="start" value="5501"/>
-      <details key="end" value="5533"/>
-      <details key="line" value="173"/>
+      <details key="start" value="5622"/>
+      <details key="end" value="5654"/>
+      <details key="line" value="177"/>
     </eAnnotations>
     <eAnnotations source="positions.54" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.1/@ifExpr">
-      <details key="start" value="5481"/>
-      <details key="end" value="5499"/>
+      <details key="start" value="5602"/>
+      <details key="end" value="5620"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.55" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.1/@ifExpr/@source">
-      <details key="start" value="5482"/>
-      <details key="end" value="5488"/>
+      <details key="start" value="5603"/>
+      <details key="end" value="5609"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.56" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.1/@ifExpr/@source/a">
-      <details key="start" value="5482"/>
-      <details key="end" value="5483"/>
+      <details key="start" value="5603"/>
+      <details key="end" value="5604"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.57" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.1/@ifExpr/@argument.0">
-      <details key="start" value="5491"/>
-      <details key="end" value="5498"/>
+      <details key="start" value="5612"/>
+      <details key="end" value="5619"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.58" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.2">
-      <details key="start" value="5539"/>
-      <details key="end" value="5606"/>
-      <details key="line" value="175"/>
+      <details key="start" value="5660"/>
+      <details key="end" value="5727"/>
+      <details key="line" value="179"/>
     </eAnnotations>
     <eAnnotations source="positions.59" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.2/@body.0">
-      <details key="start" value="5566"/>
-      <details key="end" value="5601"/>
-      <details key="line" value="176"/>
+      <details key="start" value="5687"/>
+      <details key="end" value="5722"/>
+      <details key="line" value="180"/>
     </eAnnotations>
     <eAnnotations source="positions.60" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.2/@ifExpr">
-      <details key="start" value="5543"/>
-      <details key="end" value="5564"/>
+      <details key="start" value="5664"/>
+      <details key="end" value="5685"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.61" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.2/@ifExpr/@source">
-      <details key="start" value="5544"/>
-      <details key="end" value="5550"/>
+      <details key="start" value="5665"/>
+      <details key="end" value="5671"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.62" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.2/@ifExpr/@source/a">
-      <details key="start" value="5544"/>
-      <details key="end" value="5545"/>
+      <details key="start" value="5665"/>
+      <details key="end" value="5666"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.63" references="/0/generateUCP/@body.3/@body.0/@body.3/@body.2/@ifExpr/@argument.0">
-      <details key="start" value="5553"/>
-      <details key="end" value="5563"/>
+      <details key="start" value="5674"/>
+      <details key="end" value="5684"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.64" references="/0/generateUCP/@body.3/@body.0/@body.3/a">
-      <details key="start" value="5367"/>
-      <details key="end" value="5381"/>
-      <details key="line" value="168"/>
+      <details key="start" value="5488"/>
+      <details key="end" value="5502"/>
+      <details key="line" value="172"/>
     </eAnnotations>
     <eAnnotations source="positions.65" references="/0/generateUCP/@body.3/@body.0/@body.3/@iterSet">
-      <details key="start" value="5384"/>
-      <details key="end" value="5409"/>
+      <details key="start" value="5505"/>
+      <details key="end" value="5530"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.66" references="/0/generateUCP/@body.3/@body.0/@body.3/@iterSet/e">
-      <details key="start" value="5384"/>
-      <details key="end" value="5385"/>
+      <details key="start" value="5505"/>
+      <details key="end" value="5506"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.67" references="/0/generateUCP/@body.3/@body.0/@body.4">
-      <details key="start" value="5614"/>
-      <details key="end" value="5761"/>
-      <details key="line" value="179"/>
+      <details key="start" value="5735"/>
+      <details key="end" value="5882"/>
+      <details key="line" value="183"/>
     </eAnnotations>
     <eAnnotations source="positions.68" references="/0/generateUCP/@body.3/@body.0/@ifExpr">
-      <details key="start" value="5088"/>
-      <details key="end" value="5113"/>
+      <details key="start" value="5209"/>
+      <details key="end" value="5234"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.69" references="/0/generateUCP/@body.3/@body.0/@ifExpr/e">
-      <details key="start" value="5090"/>
-      <details key="end" value="5091"/>
+      <details key="start" value="5211"/>
+      <details key="end" value="5212"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.70" references="/0/generateUCP/@body.3/@body.0/@ifExpr/@argument.0">
-      <details key="start" value="5104"/>
-      <details key="end" value="5111"/>
+      <details key="start" value="5225"/>
+      <details key="end" value="5232"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.71" references="/0/generateUCP/@body.3/e">
-      <details key="start" value="5046"/>
-      <details key="end" value="5062"/>
-      <details key="line" value="156"/>
+      <details key="start" value="5167"/>
+      <details key="end" value="5183"/>
+      <details key="line" value="160"/>
     </eAnnotations>
     <eAnnotations source="positions.72" references="/0/generateUCP/@body.3/@iterSet">
-      <details key="start" value="5065"/>
-      <details key="end" value="5081"/>
+      <details key="start" value="5186"/>
+      <details key="end" value="5202"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.73" references="/0/generateUCP/@body.3/@iterSet/u">
-      <details key="start" value="5065"/>
-      <details key="end" value="5066"/>
+      <details key="start" value="5186"/>
+      <details key="end" value="5187"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.74" references="/0/generateUCP/@body.3/@iterSet/@argument.0">
-      <details key="start" value="5072"/>
-      <details key="end" value="5080"/>
+      <details key="start" value="5193"/>
+      <details key="end" value="5201"/>
       <details key="line" value="0"/>
     </eAnnotations>
     <eAnnotations source="positions.75" references="/0/generateUCP/@body.4">
-      <details key="start" value="5774"/>
-      <details key="end" value="21699"/>
-      <details key="line" value="186"/>
+      <details key="start" value="5895"/>
+      <details key="end" value="21820"/>
+      <details key="line" value="190"/>
     </eAnnotations>
     <eAnnotations source="positions.76" references="/0/generateUCP/u">
       <details key="start" value="449"/>

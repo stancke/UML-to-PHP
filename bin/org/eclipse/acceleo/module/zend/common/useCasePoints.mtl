@@ -48,15 +48,19 @@ new UCP();
 
 <div id="tabs">
 <ul>
-<li><a href="#tabs-1"><strong>Atores</strong></a></li>
-<li><a href="#tabs-2"><strong>Casos de Uso</strong></a></li>
-<li><a href="#tabs-3"><strong>Fatores Técnicos</strong></a></li>
-<li><a href="#tabs-4"><strong>Fatores Ambientais</strong></a></li>
-<li><a id="resultado" href="#tabs-5"><strong>Resultados</strong></a></li>
+<li><a href="#tabs-1"><strong>Diagrama</strong></a></li>
+<li><a href="#tabs-2"><strong>Atores</strong></a></li>
+<li><a href="#tabs-3"><strong>Casos de Uso</strong></a></li>
+<li><a href="#tabs-4"><strong>Fatores Técnicos</strong></a></li>
+<li><a href="#tabs-5"><strong>Fatores Ambientais</strong></a></li>
+<li><a id="resultado" href="#tabs-6"><strong>Resultados</strong></a></li>
 <a style="float: right;"href="javascript:void(0)" id="sobre"><img src="img/icons/help.png" /></a>
 <a style="float: right;"href="javascript:void(0)" id="config"><img src="img/icons/cog.png" /></a>
 </ul>
 <div id="tabs-1">
+<img src="img/diagramas/usecase.png"/>
+</div>
+<div id="tabs-2">
 <div id="dialog_configuracao" title="Configurações">
 <table>
 <tr>
@@ -150,7 +154,7 @@ new UCP();
 </div>
 </div>
 
-<div id="tabs-2">
+<div id="tabs-3">
 <fieldset class="caso-de-uso ui-widget-content ui-corner-all ui-state-highlight">
 <table width="100%">
 [for (e : NamedElement | u.eGet('member'))]
@@ -213,7 +217,7 @@ new UCP();
 </div>
 </div>
 
-<div id="tabs-3">
+<div id="tabs-4">
 <table cellpadding="4" cellspacing="2" width="100%">
 <th class="ui-widget-header ui-corner-all" width="70%">Fator Técnico</th>
 <th class="ui-widget-header ui-corner-all" width="10%">Classificação</th>
@@ -502,7 +506,7 @@ new UCP();
 </div>
 
 
-<div id="tabs-4">
+<div id="tabs-5">
 <table cellpadding="4" cellspacing="2" width="100%">
 <th class="ui-widget-header ui-corner-all" width="70%">Fator Ambiental</th>
 <th class="ui-widget-header ui-corner-all" width="10%">Classificação</th>
@@ -681,7 +685,7 @@ new UCP();
 
 </table>
 </div>
-<div id="tabs-5">
+<div id="tabs-6">
 <fieldset class="ui-widget-content ui-corner-all">
 <legend class="ui-widget-header ui-corner-all ui-state-default"><strong>Pontos por Caso de Uso</strong></legend>
 <table cellpadding="4" cellspacing="2" width="100%">
