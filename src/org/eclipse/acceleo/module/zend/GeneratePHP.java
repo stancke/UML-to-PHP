@@ -44,7 +44,7 @@ public class GeneratePHP extends AbstractAcceleoGenerator {
 	 * 
 	 * @generated
 	 */
-	public static final String[] TEMPLATE_NAMES = { "generateClass", "generateInterface" };
+	public static final String[] TEMPLATE_NAMES = { "generateUCPmain", "generateClass", "generateInterface", "generateInteraction" };
 
 	/**
      * The list of properties files from the launch parameters (Launch configuration).
